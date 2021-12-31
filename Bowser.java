@@ -4,7 +4,6 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -43,12 +42,8 @@ public class Bowser {
     // style input
     input.setAlignmentX(JTextArea.CENTER_ALIGNMENT);
     input.setAlignmentY(JTextArea.CENTER_ALIGNMENT);
-    input.setBorder(BorderFactory.createLineBorder(Color.black, 2));
-    input.setBounds(
-        250,
-        250,
-        300,
-        20);
+    input.setBorder(BorderFactory.createLineBorder(Color.BLACK, 2));
+    input.setBounds(250, 250, 300, 20);
     // add input to the window
     frame.add(input);
     // style input button
@@ -103,5 +98,4 @@ public class Bowser {
     }
     return true;
   }
-
 }
